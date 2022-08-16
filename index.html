@@ -1,0 +1,2661 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2aef1261705519c5c3045a84a650ca14 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2aef1261705519c5c3045a84a650ca14" ></div>
+        
+</body>
+<script>    
+    
+            var map_2aef1261705519c5c3045a84a650ca14 = L.map(
+                "map_2aef1261705519c5c3045a84a650ca14",
+                {
+                    center: [36.925, 126.7],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4486389cf24fd41a0c1be614d2021e7e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var marker_59ce2f650a76d2eec6e0f359b5bce1db = L.marker(
+                [36.9870767, 126.5888612],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_21070e79d6ef9b26e31e576a4fcb1a0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_59ce2f650a76d2eec6e0f359b5bce1db.setIcon(icon_21070e79d6ef9b26e31e576a4fcb1a0d);
+        
+    
+            marker_59ce2f650a76d2eec6e0f359b5bce1db.bindTooltip(
+                `<div>
+                     ('석문초등학교', '수용인원: ', 200, '명')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_45205d00b5c06282cbddc5262553df01 = L.circle(
+                [36.9870767, 126.5888612],
+                {"bubblingMouseEvents": true, "color": "#eb9e34", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var marker_53abc107654b679613f45f193cd43368 = L.marker(
+                [36.8098672, 126.7638428],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_9d6c2d1930fe00230464151ecafb5866 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_53abc107654b679613f45f193cd43368.setIcon(icon_9d6c2d1930fe00230464151ecafb5866);
+        
+    
+            marker_53abc107654b679613f45f193cd43368.bindTooltip(
+                `<div>
+                     ('합덕읍사무소', '수용인원: ', 816, '명')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1342733b09cbffe946d3b64113e9468e = L.circle(
+                [36.8098672, 126.7638428],
+                {"bubblingMouseEvents": true, "color": "#eb9e34", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var marker_a7fdc776bc9a85092fef5da2fe024c7a = L.marker(
+                [36.8105868, 126.7546505],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_77dfc99b4b71a76df77284a29fed8e2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a7fdc776bc9a85092fef5da2fe024c7a.setIcon(icon_77dfc99b4b71a76df77284a29fed8e2d);
+        
+    
+            marker_a7fdc776bc9a85092fef5da2fe024c7a.bindTooltip(
+                `<div>
+                     ('합도초등학교', '수용인원: ', 1531, '명')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ee48d454799b5f81a1ed1f33b5f8fe21 = L.circle(
+                [36.8105868, 126.7546505],
+                {"bubblingMouseEvents": true, "color": "#eb9e34", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var marker_c3173899b5cdd1e3c365b295eaca2d3f = L.marker(
+                [36.9406966, 126.869606],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_36205f82416326f386ac87fcb283ee1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c3173899b5cdd1e3c365b295eaca2d3f.setIcon(icon_36205f82416326f386ac87fcb283ee1b);
+        
+    
+            marker_c3173899b5cdd1e3c365b295eaca2d3f.bindTooltip(
+                `<div>
+                     ('평택해양경찰서', '수용인원: ', '-', '명')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_29ffad0e811759e418760a99961e5302 = L.circle(
+                [36.9406966, 126.869606],
+                {"bubblingMouseEvents": true, "color": "#eb9e34", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var marker_5ac4459919917588b644315ad56a879a = L.marker(
+                [36.961399, 126.8472157],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_25bddde2182ab300a49c9174075288a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5ac4459919917588b644315ad56a879a.setIcon(icon_25bddde2182ab300a49c9174075288a7);
+        
+    
+            marker_5ac4459919917588b644315ad56a879a.bindTooltip(
+                `<div>
+                     ('평택지방해양수산청', '수용인원: ', '-', '명')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_19bc2294fda8769d2ed354e8866b94ca = L.circle(
+                [36.961399, 126.8472157],
+                {"bubblingMouseEvents": true, "color": "#eb9e34", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var marker_f92779dc0b6d4edddb531719b99d394e = L.marker(
+                [36.9604616, 126.695087],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_68fb54580d818a10b561ba597f88e35d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f92779dc0b6d4edddb531719b99d394e.setIcon(icon_68fb54580d818a10b561ba597f88e35d);
+        
+    
+            marker_f92779dc0b6d4edddb531719b99d394e.bindTooltip(
+                `<div>
+                     ('서정보건진료소', '수용인원: ', 20, '명')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6d4577e642c184b9c32ee4462b9f049b = L.circle(
+                [36.9604616, 126.695087],
+                {"bubblingMouseEvents": true, "color": "#eb9e34", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var marker_3e517c3a09bff2879e46dfbc71850a3b = L.marker(
+                [36.9682518, 126.6826954],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_41fd02428eb720bc5a64844fc870ec40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3e517c3a09bff2879e46dfbc71850a3b.setIcon(icon_41fd02428eb720bc5a64844fc870ec40);
+        
+    
+            marker_3e517c3a09bff2879e46dfbc71850a3b.bindTooltip(
+                `<div>
+                     ('가곡1리마을회관', '수용인원: ', 50, '명')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5949910fe6418865ec67105d4e0deab8 = L.circle(
+                [36.9682518, 126.6826954],
+                {"bubblingMouseEvents": true, "color": "#eb9e34", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var marker_8b72738128541ba25fa90b18041076cf = L.marker(
+                [36.9591689, 126.7693912],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_779f50eb5f748f72a1333be6cb26b757 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8b72738128541ba25fa90b18041076cf.setIcon(icon_779f50eb5f748f72a1333be6cb26b757);
+        
+    
+            marker_8b72738128541ba25fa90b18041076cf.bindTooltip(
+                `<div>
+                     ('상록초등학교', '수용인원: ', 960, '명')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1365040d24229960d17e17c185b05fc6 = L.circle(
+                [36.9591689, 126.7693912],
+                {"bubblingMouseEvents": true, "color": "#eb9e34", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var marker_0366dfc623df4abd1090fef226d4c09c = L.marker(
+                [36.9618919, 126.7750372],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_0af99f3b32cff5537e03b5e620e7d07f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0366dfc623df4abd1090fef226d4c09c.setIcon(icon_0af99f3b32cff5537e03b5e620e7d07f);
+        
+    
+            marker_0366dfc623df4abd1090fef226d4c09c.bindTooltip(
+                `<div>
+                     ('당진근로자종합복지관', '수용인원: ', 150, '명')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_866cedf574daa9485fe72f37f4cf1c34 = L.circle(
+                [36.9618919, 126.7750372],
+                {"bubblingMouseEvents": true, "color": "#eb9e34", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var marker_5463a4e57885aadebab140caa9ab1d36 = L.marker(
+                [37.0118621, 126.5330692],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_e48c86e48aa217486bfe6b8957794813 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5463a4e57885aadebab140caa9ab1d36.setIcon(icon_e48c86e48aa217486bfe6b8957794813);
+        
+    
+            marker_5463a4e57885aadebab140caa9ab1d36.bindTooltip(
+                `<div>
+                     ('석문중학교', '수용인원: ', 200, '명')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_aefbf56f7d6b3565bf6caf1c41486984 = L.circle(
+                [37.0118621, 126.5330692],
+                {"bubblingMouseEvents": true, "color": "#eb9e34", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var marker_48ccd543dad7256aaabff1c7b86fd44d = L.marker(
+                [37.013563, 126.5391041],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_686a95928c6ff1160b4c749b95fa0b02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_48ccd543dad7256aaabff1c7b86fd44d.setIcon(icon_686a95928c6ff1160b4c749b95fa0b02);
+        
+    
+            marker_48ccd543dad7256aaabff1c7b86fd44d.bindTooltip(
+                `<div>
+                     ('삼봉초등학교', '수용인원: ', 200, '명')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1807e096a05b893c077033321ea1625e = L.circle(
+                [37.013563, 126.5391041],
+                {"bubblingMouseEvents": true, "color": "#eb9e34", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var marker_8742dd084197578d6416c87fce1778b8 = L.marker(
+                [36.9930543, 126.5104549],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_0cfe0d69ff21c06c60961cd81d8bd69d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8742dd084197578d6416c87fce1778b8.setIcon(icon_0cfe0d69ff21c06c60961cd81d8bd69d);
+        
+    
+            marker_8742dd084197578d6416c87fce1778b8.bindTooltip(
+                `<div>
+                     ('초락초등학교', '수용인원: ', 100, '명')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_82686f2d4585a899af3d8cb22ccfc664 = L.circle(
+                [36.9930543, 126.5104549],
+                {"bubblingMouseEvents": true, "color": "#eb9e34", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var marker_e1c283aa383982029d21bb7a9f6cb0a9 = L.marker(
+                [36.9606636, 126.6941145],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_1b411f80c193a2ad16d6937158a2753a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e1c283aa383982029d21bb7a9f6cb0a9.setIcon(icon_1b411f80c193a2ad16d6937158a2753a);
+        
+    
+            marker_e1c283aa383982029d21bb7a9f6cb0a9.bindTooltip(
+                `<div>
+                     ('유곡초등학교', '수용인원: ', 500, '명')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_12f1aa26930d023fe0ef46bac2839d5c = L.circle(
+                [36.9606636, 126.6941145],
+                {"bubblingMouseEvents": true, "color": "#eb9e34", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var marker_3821efb584c7b2a712094c5c38f57c2b = L.marker(
+                [36.9596063, 126.8482892],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_9c718c9776efec9f57ba42b5ffb617c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3821efb584c7b2a712094c5c38f57c2b.setIcon(icon_9c718c9776efec9f57ba42b5ffb617c6);
+        
+    
+            marker_3821efb584c7b2a712094c5c38f57c2b.bindTooltip(
+                `<div>
+                     ('서평택탱크터미널㈜', '취급물질: ', 'N,N-다이메틸폼아마이드,아세트산에틸,메틸에틸케톤,메틸알코올,톨루엔,자일렌,디클로로메탄')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca0dfa03baa5dc12c266c159c49b8df9 = L.marker(
+                [36.9596063, 126.8482892],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_b8f36fdb1715c58b8077dfc707d921cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ca0dfa03baa5dc12c266c159c49b8df9.setIcon(icon_b8f36fdb1715c58b8077dfc707d921cd);
+        
+    
+            marker_ca0dfa03baa5dc12c266c159c49b8df9.bindTooltip(
+                `<div>
+                     ('영진티앤엠㈜', '취급물질: ', '수산화나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8860d2a02cda6a3e03095b7d1045eaee = L.marker(
+                [36.9721058, 126.7001508],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_a19ad4c2409d2a7b5b4a1c58adbcfdce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8860d2a02cda6a3e03095b7d1045eaee.setIcon(icon_a19ad4c2409d2a7b5b4a1c58adbcfdce);
+        
+    
+            marker_8860d2a02cda6a3e03095b7d1045eaee.bindTooltip(
+                `<div>
+                     ('도레이인터내셔날코리아㈜', '취급물질: ', '1-메틸-2-피롤리디논')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15a281e1694e5d8236fabebef8bc6d88 = L.marker(
+                [36.983961, 126.7446043],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_6519bc93e8f2e7cb1e7a00cb021b8653 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_15a281e1694e5d8236fabebef8bc6d88.setIcon(icon_6519bc93e8f2e7cb1e7a00cb021b8653);
+        
+    
+            marker_15a281e1694e5d8236fabebef8bc6d88.bindTooltip(
+                `<div>
+                     ('베올리아워터자원개발㈜', '취급물질: ', '수산화나트륨,황산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1cb19df16d37da1078d883e2631b2701 = L.marker(
+                [36.8071378, 126.6642741],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_2452d4a05aea8dae52cee255d5fec264 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1cb19df16d37da1078d883e2631b2701.setIcon(icon_2452d4a05aea8dae52cee255d5fec264);
+        
+    
+            marker_1cb19df16d37da1078d883e2631b2701.bindTooltip(
+                `<div>
+                     ('㈜대한솔루션 당진공장', '취급물질: ', '메틸렌디페닐디이소시아네이트')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f8ebdabc080c95f0655d4661c14c8e8 = L.marker(
+                [36.983961, 126.7446043],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_b831623991ae14cfb830c22b0195ca8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7f8ebdabc080c95f0655d4661c14c8e8.setIcon(icon_b831623991ae14cfb830c22b0195ca8c);
+        
+    
+            marker_7f8ebdabc080c95f0655d4661c14c8e8.bindTooltip(
+                `<div>
+                     ('케이지동부제철㈜', '취급물질: ', '황산,수산화나트륨,염산,수산화칼륨,중크롬산나트륨,암모니아수,플루오르화나트륨,메탄술폰산,무수크롬산,중크롬산암모늄,N-메틸피롤리돈,아세트산 2-에톡시에틸,크롬산염류,염료황색34,몰리브덴적')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1bfb281ffbe54ff32d43dce5ef020dd2 = L.marker(
+                [36.9273232, 126.7163064],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_bf9ed1ee8737458fc180e640d770ae06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1bfb281ffbe54ff32d43dce5ef020dd2.setIcon(icon_bf9ed1ee8737458fc180e640d770ae06);
+        
+    
+            marker_1bfb281ffbe54ff32d43dce5ef020dd2.bindTooltip(
+                `<div>
+                     ('모닝에스티에스㈜', '취급물질: ', '불산,과산화수소,황산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b541511f092cb751f370868dad01f62 = L.marker(
+                [37.0507484, 126.512488],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_ed203212f41d40d01a912fff2052aba4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6b541511f092cb751f370868dad01f62.setIcon(icon_ed203212f41d40d01a912fff2052aba4);
+        
+    
+            marker_6b541511f092cb751f370868dad01f62.bindTooltip(
+                `<div>
+                     ('한국동서발전㈜당진발전본부', '취급물질: ', '염산,수산화나트륨,암모니아')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a9a9284b7fce3b44511d73900bf23ed = L.marker(
+                [36.8590077, 126.7397692],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_6978462d12068c0d97df05de92aac98d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3a9a9284b7fce3b44511d73900bf23ed.setIcon(icon_6978462d12068c0d97df05de92aac98d);
+        
+    
+            marker_3a9a9284b7fce3b44511d73900bf23ed.bindTooltip(
+                `<div>
+                     ('㈜창전사 당진지사', '취급물질: ', '크레졸,1-메틸-2-피롤리디논')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fcd4033085903fafe470e503b80e321f = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_8f7ce2c614f33cf57b71d80fc0be76f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fcd4033085903fafe470e503b80e321f.setIcon(icon_8f7ce2c614f33cf57b71d80fc0be76f1);
+        
+    
+            marker_fcd4033085903fafe470e503b80e321f.bindTooltip(
+                `<div>
+                     ('㈜광진화학', '취급물질: ', '수산화나트륨,질산,염산,황산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bcf3994866bc606365ad59b058e95dff = L.marker(
+                [36.9668928, 126.7777219],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_96ab82e3409baaac2f663406c732a84a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bcf3994866bc606365ad59b058e95dff.setIcon(icon_96ab82e3409baaac2f663406c732a84a);
+        
+    
+            marker_bcf3994866bc606365ad59b058e95dff.bindTooltip(
+                `<div>
+                     ('㈜에스아이씨튜브', '취급물질: ', '황산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4762bd9bc091d6bdcb454ae2bf12034 = L.marker(
+                [36.97453, 126.685069],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_4b2a4813d560fb851048a77a53472ed4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e4762bd9bc091d6bdcb454ae2bf12034.setIcon(icon_4b2a4813d560fb851048a77a53472ed4);
+        
+    
+            marker_e4762bd9bc091d6bdcb454ae2bf12034.bindTooltip(
+                `<div>
+                     ('㈜삼우산세공장', '취급물질: ', '염산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5fa69fb61117802c902547af248eda20 = L.marker(
+                [36.9526895, 126.7817596],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_a16c9f54b7f34bc6706dda85851f4a10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5fa69fb61117802c902547af248eda20.setIcon(icon_a16c9f54b7f34bc6706dda85851f4a10);
+        
+    
+            marker_5fa69fb61117802c902547af248eda20.bindTooltip(
+                `<div>
+                     ('희성피엠텍㈜', '취급물질: ', '염산,질산,염소산나트륨,히드라진,암모니아,수산화나트륨,황산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d92dbbc016eb8d4f4aa4a41bdbd2f5b9 = L.marker(
+                [36.9817129, 126.728028],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_aa84e77aea43db07312bd6a2e0f98b4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d92dbbc016eb8d4f4aa4a41bdbd2f5b9.setIcon(icon_aa84e77aea43db07312bd6a2e0f98b4a);
+        
+    
+            marker_d92dbbc016eb8d4f4aa4a41bdbd2f5b9.bindTooltip(
+                `<div>
+                     ('현대제철㈜ 당진공장', '취급물질: ', '수산화나트륨,산화니켈,퀴놀린,염산,크롬산,무기아연염류,암모니아,황산,암모니아수,크레오소트오일아세나프텐\n[중간생성물 : 암모니아, 황화수소]')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_449e02405a85c509e7b3957a8fcdd543 = L.marker(
+                [36.9643374, 126.7728453],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_de72ae83ce612d2537a14a1ad3d6378e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_449e02405a85c509e7b3957a8fcdd543.setIcon(icon_de72ae83ce612d2537a14a1ad3d6378e);
+        
+    
+            marker_449e02405a85c509e7b3957a8fcdd543.bindTooltip(
+                `<div>
+                     ('미주엔비켐㈜', '취급물질: ', '염산,수산화나트륨,황산,아크릴산,아크릴아미드,사붕산이나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c17b780271ba8e609baa2537cb9177f0 = L.marker(
+                [36.9526895, 126.7817596],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_3a724c56294ba2562b64d39ee5612811 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c17b780271ba8e609baa2537cb9177f0.setIcon(icon_3a724c56294ba2562b64d39ee5612811);
+        
+    
+            marker_c17b780271ba8e609baa2537cb9177f0.bindTooltip(
+                `<div>
+                     ('희성촉매㈜ 당진공장', '취급물질: ', '염산,과산화수소,수산화나트륨,염화제일주석,질산칼륨,질산,염화아연,개미산,암모니아수')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c56eb7080c8adbadc816530320656f1 = L.marker(
+                [36.8938805, 126.7213375],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_53b35ad842bbec35c3e3ed4e9495fe37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9c56eb7080c8adbadc816530320656f1.setIcon(icon_53b35ad842bbec35c3e3ed4e9495fe37);
+        
+    
+            marker_9c56eb7080c8adbadc816530320656f1.bindTooltip(
+                `<div>
+                     ('한두철강㈜ 당진공장', '취급물질: ', '황산,수산화나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2da2ca16e8e0ee1a467b7fbe2e52402 = L.marker(
+                [36.9493258, 126.7871405],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_34cf2de96cf82114596ef12e4daa94d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b2da2ca16e8e0ee1a467b7fbe2e52402.setIcon(icon_34cf2de96cf82114596ef12e4daa94d1);
+        
+    
+            marker_b2da2ca16e8e0ee1a467b7fbe2e52402.bindTooltip(
+                `<div>
+                     ('㈜휴스틸', '취급물질: ', '황산,수산화나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b364d9193f5eb3f68effdce98cab2743 = L.marker(
+                [36.85863, 126.7079402],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_019d96f73ceefaff4f889ba0891a090a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b364d9193f5eb3f68effdce98cab2743.setIcon(icon_019d96f73ceefaff4f889ba0891a090a);
+        
+    
+            marker_b364d9193f5eb3f68effdce98cab2743.bindTooltip(
+                `<div>
+                     ('코스람산업', '취급물질: ', '메탄올,수산화나트륨,암모니아수,수산화칼륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_efcb24ad50be50ad6542d1aca9ee8996 = L.marker(
+                [36.9575864, 126.7773968],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_9af8f5b9195119b90ef78cdde63f766f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_efcb24ad50be50ad6542d1aca9ee8996.setIcon(icon_9af8f5b9195119b90ef78cdde63f766f);
+        
+    
+            marker_efcb24ad50be50ad6542d1aca9ee8996.bindTooltip(
+                `<div>
+                     ('㈜태진스틸산업', '취급물질: ', '염산,염화아연,암모니아,황산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_152d8d84b87b0565ccf620e831fa50f8 = L.marker(
+                [36.9571468, 126.7813551],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_8782c10d97b4d5c146e57e9aa0229839 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_152d8d84b87b0565ccf620e831fa50f8.setIcon(icon_8782c10d97b4d5c146e57e9aa0229839);
+        
+    
+            marker_152d8d84b87b0565ccf620e831fa50f8.bindTooltip(
+                `<div>
+                     ('GS EPS㈜[지에스이피에스㈜]', '취급물질: ', '염산,수산화나트륨,암모니아수,황산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ea1dd3e9e93f18fbcb0e16ee0e41596 = L.marker(
+                [36.7989252, 126.7437418],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_3b0478c99d88c00418ef888fcffa11e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1ea1dd3e9e93f18fbcb0e16ee0e41596.setIcon(icon_3b0478c99d88c00418ef888fcffa11e3);
+        
+    
+            marker_1ea1dd3e9e93f18fbcb0e16ee0e41596.bindTooltip(
+                `<div>
+                     ('다스코㈜당진2공장', '취급물질: ', '4,4-디이소시안산디페닐메탄')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbdb481f6e312e4a11a5818f460a37d8 = L.marker(
+                [36.9866851, 126.6736801],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_f2d7b48ad0daa895426d58df41d78c93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fbdb481f6e312e4a11a5818f460a37d8.setIcon(icon_f2d7b48ad0daa895426d58df41d78c93);
+        
+    
+            marker_fbdb481f6e312e4a11a5818f460a37d8.bindTooltip(
+                `<div>
+                     ('당진시 가축분뇨지역단위통합센터', '취급물질: ', '수산화나트륨,황산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_714ade2e930414ed6b63eae6521a5b63 = L.marker(
+                [36.9511556, 126.7856037],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_9c83a15929e9d269c75ea959bdf21b46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_714ade2e930414ed6b63eae6521a5b63.setIcon(icon_9c83a15929e9d269c75ea959bdf21b46);
+        
+    
+            marker_714ade2e930414ed6b63eae6521a5b63.bindTooltip(
+                `<div>
+                     ('㈜알테크노메탈', '취급물질: ', '실리코플루오라이드나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d28f5e4774d20b0d9ef2fae596bb0797 = L.marker(
+                [36.947573, 126.7902221],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_34a990125166675f2643250c53078be8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d28f5e4774d20b0d9ef2fae596bb0797.setIcon(icon_34a990125166675f2643250c53078be8);
+        
+    
+            marker_d28f5e4774d20b0d9ef2fae596bb0797.bindTooltip(
+                `<div>
+                     ('생고뱅이소바코리아㈜', '취급물질: ', '암모니아수,황산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3347c58d33ea895d5206d8d84a00fdc4 = L.marker(
+                [36.8901741, 126.7935315],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_0578de3c0c209a96b6c294915ca1f3e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3347c58d33ea895d5206d8d84a00fdc4.setIcon(icon_0578de3c0c209a96b6c294915ca1f3e1);
+        
+    
+            marker_3347c58d33ea895d5206d8d84a00fdc4.bindTooltip(
+                `<div>
+                     ('㈜명화금속', '취급물질: ', '과산화수소,질산,무수크롬산,염산,수산화나트륨,암모니아,칼륨아연크롬산수산화물,붕산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_152da16b8cb9163a597231cafd6ee780 = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_c8544e1b30383ea5de99fdec29422fde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_152da16b8cb9163a597231cafd6ee780.setIcon(icon_c8544e1b30383ea5de99fdec29422fde);
+        
+    
+            marker_152da16b8cb9163a597231cafd6ee780.bindTooltip(
+                `<div>
+                     ('㈜켐플러스', '취급물질: ', "톨루엔,1-메틸-2-피롤리디논,히드라진수화물,1,1'-메틸렌비스[4-이소시아나토시클로헥산],디이소시안산이소포론,자일렌,트라이에틸아민,메틸알콜,톨루엔디이소시아네이트")
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_350c27d8eaa01d268d01414669843aab = L.marker(
+                [36.9655774, 126.767287],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_8d4361eba9219dd424af20b82ce7578a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_350c27d8eaa01d268d01414669843aab.setIcon(icon_8d4361eba9219dd424af20b82ce7578a);
+        
+    
+            marker_350c27d8eaa01d268d01414669843aab.bindTooltip(
+                `<div>
+                     ('제이더블유생명과학㈜', '취급물질: ', '염산,수산화나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea19c7451e9aa05179aef06bd6f40392 = L.marker(
+                [36.8199272, 126.7415131],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_41672a293855172cb150e65b439d589d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ea19c7451e9aa05179aef06bd6f40392.setIcon(icon_41672a293855172cb150e65b439d589d);
+        
+    
+            marker_ea19c7451e9aa05179aef06bd6f40392.bindTooltip(
+                `<div>
+                     ('디엘피㈜', '취급물질: ', '황산,질산,염산,암모니아수,무수크롬산,과산화수소,황산니켈,수산화나트륨,주석염화물(Ⅱ),붕산,염화니켈 헥사히드레이트')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8bf5e875f508ebc8168f563d426262c8 = L.marker(
+                [36.8098706, 126.7640351],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_3f95205ba4a1424cd4d3d20c8f0d072e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8bf5e875f508ebc8168f563d426262c8.setIcon(icon_3f95205ba4a1424cd4d3d20c8f0d072e);
+        
+    
+            marker_8bf5e875f508ebc8168f563d426262c8.bindTooltip(
+                `<div>
+                     ('㈜비츠로셀', '취급물질: ', '염화티오닐,수산화나트륨,톨루엔,염화아연,염산,아세토니트릴,테크라에틸암모늄테트라플루오로붕산염,1,2-디메톡시에탄')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_05139b21b7c219e81fc3fa6e75c1ab24 = L.marker(
+                [36.96825949999999, 126.5844504],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_afdc53d35bdb5330a960ee8e69b14036 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_05139b21b7c219e81fc3fa6e75c1ab24.setIcon(icon_afdc53d35bdb5330a960ee8e69b14036);
+        
+    
+            marker_05139b21b7c219e81fc3fa6e75c1ab24.bindTooltip(
+                `<div>
+                     ('대한전선㈜당진공장', '취급물질: ', '메틸에틸케톤')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_788f385cfc797ce096bec2ff86c0530a = L.marker(
+                [36.9856689, 126.587207],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_b83fffa7b9f179742d79d0833330a5d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_788f385cfc797ce096bec2ff86c0530a.setIcon(icon_b83fffa7b9f179742d79d0833330a5d4);
+        
+    
+            marker_788f385cfc797ce096bec2ff86c0530a.bindTooltip(
+                `<div>
+                     ('㈜폴리테츠코리아 당진공장', '취급물질: ', '황산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb6766f1777d7d806b13793f209cc7ce = L.marker(
+                [36.975368, 126.685077],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_443589d075b3c55a560b8273964ee8df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fb6766f1777d7d806b13793f209cc7ce.setIcon(icon_443589d075b3c55a560b8273964ee8df);
+        
+    
+            marker_fb6766f1777d7d806b13793f209cc7ce.bindTooltip(
+                `<div>
+                     ('㈜이엔워터솔루션', '취급물질: ', '수산화나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d77a5327d31c09f881db79a8de84d8f9 = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_944d785c2b8ceddea1d7ca1784203d29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d77a5327d31c09f881db79a8de84d8f9.setIcon(icon_944d785c2b8ceddea1d7ca1784203d29);
+        
+    
+            marker_d77a5327d31c09f881db79a8de84d8f9.bindTooltip(
+                `<div>
+                     ('㈜기산화학', '취급물질: ', '수산화나트륨,과망간산칼륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e112f1444023206b18d69082f0382e9 = L.marker(
+                [36.9721058, 126.7001508],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_491487d1081b95046e9473b84544004e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7e112f1444023206b18d69082f0382e9.setIcon(icon_491487d1081b95046e9473b84544004e);
+        
+    
+            marker_7e112f1444023206b18d69082f0382e9.bindTooltip(
+                `<div>
+                     ('한국클린씨터미날㈜ 당진지점', '취급물질: ', '메틸에틸케톤,톨루엔,수산화나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d96b7c87aa75ce93caa6741bfa11cca = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_b9206ff7f7a644306d7dafefb40959b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3d96b7c87aa75ce93caa6741bfa11cca.setIcon(icon_b9206ff7f7a644306d7dafefb40959b9);
+        
+    
+            marker_3d96b7c87aa75ce93caa6741bfa11cca.bindTooltip(
+                `<div>
+                     ('㈜프라임텍인터내쇼날 당진공장 ', '취급물질: ', '수산화나트륨,수산화칼륨,염화아연,사이클로헥실아민,히드라진수화물,5-클로로-2-메틸-4-이소티아졸린-3-온 및 \n2-메틸-4-이소티아졸린-3-온 혼합물질,과산화수소(32%)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ef93a584d85566f5472685af48d3802 = L.marker(
+                [36.97453, 126.685069],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_492fa4f7e13bb054002562aad29d7d2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9ef93a584d85566f5472685af48d3802.setIcon(icon_492fa4f7e13bb054002562aad29d7d2a);
+        
+    
+            marker_9ef93a584d85566f5472685af48d3802.bindTooltip(
+                `<div>
+                     ('쿠퍼스탠다드코리아 유한회사', '취급물질: ', '톨루엔,메틸에틸케톤')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78e37e3a68f0f1f259d508143ff0cc2c = L.marker(
+                [36.9721058, 126.7001508],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_ec1be32414401ec0e77d368fe8adffe9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_78e37e3a68f0f1f259d508143ff0cc2c.setIcon(icon_ec1be32414401ec0e77d368fe8adffe9);
+        
+    
+            marker_78e37e3a68f0f1f259d508143ff0cc2c.bindTooltip(
+                `<div>
+                     ('강원메탈', '취급물질: ', '질산,불산,수산화나트륨,황산니켈')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a62a8d6e9c8acf52b29903dbbfcc6e5 = L.marker(
+                [36.8453398, 126.6996327],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_36bf8076c2b8adbfb0be49f287ddc9ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4a62a8d6e9c8acf52b29903dbbfcc6e5.setIcon(icon_36bf8076c2b8adbfb0be49f287ddc9ba);
+        
+    
+            marker_4a62a8d6e9c8acf52b29903dbbfcc6e5.bindTooltip(
+                `<div>
+                     ('동우에이치에스티㈜', '취급물질: ', '암모니아')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b5b20266a6ba137e219157ddfc8f934 = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_ad869a1f57bb500510302f8dd64f6704 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0b5b20266a6ba137e219157ddfc8f934.setIcon(icon_ad869a1f57bb500510302f8dd64f6704);
+        
+    
+            marker_0b5b20266a6ba137e219157ddfc8f934.bindTooltip(
+                `<div>
+                     ('인천화학㈜ 당진공장', '취급물질: ', '황산,과산화수소,수산화나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_624903d841cae1a1fcc17883f2a21467 = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_e08e5e3e649deef1633deb0f64d84740 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_624903d841cae1a1fcc17883f2a21467.setIcon(icon_e08e5e3e649deef1633deb0f64d84740);
+        
+    
+            marker_624903d841cae1a1fcc17883f2a21467.bindTooltip(
+                `<div>
+                     ('넥스테크㈜ 당진공장', '취급물질: ', '염산,수산화나트륨,황산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e044d4bff554c16f6d5f74b73ced7e18 = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_8a47d3dd04e2d0169561a9b7cc61cc63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e044d4bff554c16f6d5f74b73ced7e18.setIcon(icon_8a47d3dd04e2d0169561a9b7cc61cc63);
+        
+    
+            marker_e044d4bff554c16f6d5f74b73ced7e18.bindTooltip(
+                `<div>
+                     ('미주엔비켐㈜ 당진석문', '취급물질: ', '황산,염산,수산화나트륨,사붕산이나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0c4bfa43f1997d17a1768dda7288a4b = L.marker(
+                [36.8669679, 126.6795657],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_6689c758ab2f2b4a4aa0c53e90e641b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b0c4bfa43f1997d17a1768dda7288a4b.setIcon(icon_6689c758ab2f2b4a4aa0c53e90e641b6);
+        
+    
+            marker_b0c4bfa43f1997d17a1768dda7288a4b.bindTooltip(
+                `<div>
+                     ('유신정밀공업㈜ 당진공장', '취급물질: ', '아질산나트륨,질산나트륨,수산화나트륨,')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8f281ef146c5ec644f0550aba526df0 = L.marker(
+                [36.9721058, 126.7001508],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_1b73e97394f57c32744524426cfab02b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c8f281ef146c5ec644f0550aba526df0.setIcon(icon_1b73e97394f57c32744524426cfab02b);
+        
+    
+            marker_c8f281ef146c5ec644f0550aba526df0.bindTooltip(
+                `<div>
+                     ('㈜삼주 당진공장', '취급물질: ', '염산,황산,수산화나트륨,메탄올,과산화수소,질산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b71f0fc824f0ff7f59752c360df093c = L.marker(
+                [36.9591649, 126.7725702],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_7c4fe066b210cc304065b6de61a94b1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6b71f0fc824f0ff7f59752c360df093c.setIcon(icon_7c4fe066b210cc304065b6de61a94b1f);
+        
+    
+            marker_6b71f0fc824f0ff7f59752c360df093c.bindTooltip(
+                `<div>
+                     ('㈜황금에스티 당진공장', '취급물질: ', '황산,질산,무수크롬산,수산화나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57f24315e555de65adca99fc9ad9c497 = L.marker(
+                [36.9636337, 126.7752058],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_9eae2fcb367613ec50fb521f0aeceaca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_57f24315e555de65adca99fc9ad9c497.setIcon(icon_9eae2fcb367613ec50fb521f0aeceaca);
+        
+    
+            marker_57f24315e555de65adca99fc9ad9c497.bindTooltip(
+                `<div>
+                     ('㈜에이치엔씨', '취급물질: ', '황산,수산화나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_858f5f659e4c64fd5e861419beb26d32 = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_f2d0f382849d38ce8b55c2b5c135f147 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_858f5f659e4c64fd5e861419beb26d32.setIcon(icon_f2d0f382849d38ce8b55c2b5c135f147);
+        
+    
+            marker_858f5f659e4c64fd5e861419beb26d32.bindTooltip(
+                `<div>
+                     ('㈜한내포티', '취급물질: ', '염산,수산화나트륨,황산,과산화수소')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7315a12d4f1dc5a8a4a1eb25e04661a3 = L.marker(
+                [37.0209169, 126.5606543],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_7b7abce690fb111a4912cc0e78af1eea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7315a12d4f1dc5a8a4a1eb25e04661a3.setIcon(icon_7b7abce690fb111a4912cc0e78af1eea);
+        
+    
+            marker_7315a12d4f1dc5a8a4a1eb25e04661a3.bindTooltip(
+                `<div>
+                     ('㈜대성에코에너지센터', '취급물질: ', '수산화나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04db09d3e27dc8c6030e9b584d44ff49 = L.marker(
+                [36.97453, 126.685069],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_59b03490e10bf0f4aa100e0f222b4f01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_04db09d3e27dc8c6030e9b584d44ff49.setIcon(icon_59b03490e10bf0f4aa100e0f222b4f01);
+        
+    
+            marker_04db09d3e27dc8c6030e9b584d44ff49.bindTooltip(
+                `<div>
+                     ('㈜엔에프엠솔루션', '취급물질: ', '황산,시안화제일금가리')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9dfc90cbd38cc7763bfa7f4c9172f4c6 = L.marker(
+                [36.8573673, 126.7022996],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_610183ad06db5b931fd5d7dbafe0e776 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9dfc90cbd38cc7763bfa7f4c9172f4c6.setIcon(icon_610183ad06db5b931fd5d7dbafe0e776);
+        
+    
+            marker_9dfc90cbd38cc7763bfa7f4c9172f4c6.bindTooltip(
+                `<div>
+                     ('㈜승진기계 순성공장', '취급물질: ', '무스크롬산,수산화나트륨,황산,1,2-디클로로프로판,붕산,니켈설파메이트,디엠에이비,염산,염화니켈헥사히드레이트,황산니켈,규불화나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a01cf271433ed17fc7f441dcb630f96 = L.marker(
+                [36.9691747, 126.7055141],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_be76cecb19754f1d6d26b8681208d245 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7a01cf271433ed17fc7f441dcb630f96.setIcon(icon_be76cecb19754f1d6d26b8681208d245);
+        
+    
+            marker_7a01cf271433ed17fc7f441dcb630f96.bindTooltip(
+                `<div>
+                     ('㈜제이엔텍', '취급물질: ', '수산화나트륨,황산,과산화수소(33%)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac015a0c3f4de1bd63757b666119fc08 = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_9fcff635c87e1ef6178ec40c79c2000a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ac015a0c3f4de1bd63757b666119fc08.setIcon(icon_9fcff635c87e1ef6178ec40c79c2000a);
+        
+    
+            marker_ac015a0c3f4de1bd63757b666119fc08.bindTooltip(
+                `<div>
+                     ('한일화학공업㈜', '취급물질: ', '황산,과산화수소,염산,톨루엔,붕산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37a0d3d3114a246117ed7b357ef0919d = L.marker(
+                [36.807418, 126.776274],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_de14786240cc447d20e37dc8be953de3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_37a0d3d3114a246117ed7b357ef0919d.setIcon(icon_de14786240cc447d20e37dc8be953de3);
+        
+    
+            marker_37a0d3d3114a246117ed7b357ef0919d.bindTooltip(
+                `<div>
+                     ('㈜보국강업', '취급물질: ', '수산화나트륨,무수크롬산,황산,질산,염산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6af92883dc1093e1523d0f8496b78f46 = L.marker(
+                [36.8280054, 126.7669991],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_73b2419144005cc189ab3cb9329325e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6af92883dc1093e1523d0f8496b78f46.setIcon(icon_73b2419144005cc189ab3cb9329325e7);
+        
+    
+            marker_6af92883dc1093e1523d0f8496b78f46.bindTooltip(
+                `<div>
+                     ('정우화인㈜ 당진공장', '취급물질: ', "4,4'-디이소시안산 디페닐메탄")
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e87dba8635ec2de547581c2c0da0996f = L.marker(
+                [36.9721058, 126.7001508],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_fd99f4ed99820bc5b28832f69d97f2d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e87dba8635ec2de547581c2c0da0996f.setIcon(icon_fd99f4ed99820bc5b28832f69d97f2d9);
+        
+    
+            marker_e87dba8635ec2de547581c2c0da0996f.bindTooltip(
+                `<div>
+                     ('㈜하이드로폼테크', '취급물질: ', 'N,N-디메틸포름아미드')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5348163fc622fa7caf4d9e2ed38b506 = L.marker(
+                [36.94431280000001, 126.78722],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_af958e7be553ff1b0ea3fae97081a40f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c5348163fc622fa7caf4d9e2ed38b506.setIcon(icon_af958e7be553ff1b0ea3fae97081a40f);
+        
+    
+            marker_c5348163fc622fa7caf4d9e2ed38b506.bindTooltip(
+                `<div>
+                     ('㈜동특', '취급물질: ', "메탄올,과산화수소,N-메틸피롤리돈,불산,암모니아수,질산,톨루엔디이소시아네이트,4,4'-디이소시안산디페닐메탄,4-tert-옥틸페놀,아크릴산,비스페놀-A,황산니켈,메틸포름아미드,실란")
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_997e85be88c2982ae55370934e5db21f = L.marker(
+                [36.8779991, 126.8015536],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_cc55852fb7c8dfb9183a29a558a80dba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_997e85be88c2982ae55370934e5db21f.setIcon(icon_cc55852fb7c8dfb9183a29a558a80dba);
+        
+    
+            marker_997e85be88c2982ae55370934e5db21f.bindTooltip(
+                `<div>
+                     ('구구로지스틱㈜', '취급물질: ', '과산화수소,1-메틸-2-피롤리디논,니켈황산염,황산코발트')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_01d923f463acc46080944424c35ccc46 = L.marker(
+                [36.9567729, 126.7781206],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_9ce1b195f02ab4fff3be704767886870 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_01d923f463acc46080944424c35ccc46.setIcon(icon_9ce1b195f02ab4fff3be704767886870);
+        
+    
+            marker_01d923f463acc46080944424c35ccc46.bindTooltip(
+                `<div>
+                     ('㈜민영로지스', '취급물질: ', '메틸트리클로로실란,2-메톡시에탄올,2-에톡시에탄올')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69f882be4f0eda901bec9a73284b441b = L.marker(
+                [36.9674688, 126.5770637],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_82a35219eb03813bca9920e08f5a0673 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_69f882be4f0eda901bec9a73284b441b.setIcon(icon_82a35219eb03813bca9920e08f5a0673);
+        
+    
+            marker_69f882be4f0eda901bec9a73284b441b.bindTooltip(
+                `<div>
+                     ('성동상운㈜', '취급물질: ', "4,4'-(1-메틸에틸리덴)비스페놀")
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e27b583e62e6230384d86df84e69d8c = L.marker(
+                [36.8030919, 126.7241138],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_de8eed5d5ff4cabe6b785c282d81d608 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4e27b583e62e6230384d86df84e69d8c.setIcon(icon_de8eed5d5ff4cabe6b785c282d81d608);
+        
+    
+            marker_4e27b583e62e6230384d86df84e69d8c.bindTooltip(
+                `<div>
+                     ('㈜전영', '취급물질: ', '수산화칼륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6970675059559f06b02cde20d58b7618 = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_e919866e6cf40f521da02d6b6e17abe0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6970675059559f06b02cde20d58b7618.setIcon(icon_e919866e6cf40f521da02d6b6e17abe0);
+        
+    
+            marker_6970675059559f06b02cde20d58b7618.bindTooltip(
+                `<div>
+                     ('㈜광진화학', '취급물질: ', '황산,수산화나트륨,염산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5643dcb46a07eab461f3484a93915c87 = L.marker(
+                [36.9817129, 126.728028],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_9a914e26bb78bf04ee9461c7632a36cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5643dcb46a07eab461f3484a93915c87.setIcon(icon_9a914e26bb78bf04ee9461c7632a36cc);
+        
+    
+            marker_5643dcb46a07eab461f3484a93915c87.bindTooltip(
+                `<div>
+                     ('현대제철㈜ 당진공장', '취급물질: ', '일산화탄소,퀴놀린')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2198cec3471ad61d5b3cfaf752c6cca8 = L.marker(
+                [36.9643374, 126.7728453],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_61b80814b0587d815b24431fb25ddb25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2198cec3471ad61d5b3cfaf752c6cca8.setIcon(icon_61b80814b0587d815b24431fb25ddb25);
+        
+    
+            marker_2198cec3471ad61d5b3cfaf752c6cca8.bindTooltip(
+                `<div>
+                     ('미주엔비켐㈜', '취급물질: ', '수산화나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f6a8e06a8c06f85f28df10e6cfb3e548 = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_0cf3bbf5998ceafe25664bca1e17652a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f6a8e06a8c06f85f28df10e6cfb3e548.setIcon(icon_0cf3bbf5998ceafe25664bca1e17652a);
+        
+    
+            marker_f6a8e06a8c06f85f28df10e6cfb3e548.bindTooltip(
+                `<div>
+                     ('신라화성상사', '취급물질: ', '수산화나트륨,무수크롬산,플루오르화나트륨,안티모니트리클로라이드,아염소산나트륨,암모늄수산화물,염산,염소산나트륨,염화아연,아주석염화물,이산화셀레늄,산성플루오르화암모늄,질산,질산나트륨,질산암모늄,질산은,시안화칼륨,폼알데하이드,황산,황산니켈,황산아연,중크롬산나트륨,과산화수소,수산화칼륨,에틸렌디아민')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a613398d5cb85acde7129cf6ce2b3eca = L.marker(
+                [36.9856689, 126.587207],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_254d3ec57c185ca3fa5c4d5b56f9c55b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a613398d5cb85acde7129cf6ce2b3eca.setIcon(icon_254d3ec57c185ca3fa5c4d5b56f9c55b);
+        
+    
+            marker_a613398d5cb85acde7129cf6ce2b3eca.bindTooltip(
+                `<div>
+                     ('㈜바이옥스 당진공장', '취급물질: ', '수산화칼륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f5d02c59be15d93e673c01416688333 = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_6cdf0888703b3d44f67a20e0de7e0111 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7f5d02c59be15d93e673c01416688333.setIcon(icon_6cdf0888703b3d44f67a20e0de7e0111);
+        
+    
+            marker_7f5d02c59be15d93e673c01416688333.bindTooltip(
+                `<div>
+                     ('㈜켐플러스', '취급물질: ', '1-메틸-2-피롤리디논(제품명 : PUD-190)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_774d52e00c8630a0bfa530ad97bbd431 = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_5ff6bc62a66a258081142bda9c0d6a57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_774d52e00c8630a0bfa530ad97bbd431.setIcon(icon_5ff6bc62a66a258081142bda9c0d6a57);
+        
+    
+            marker_774d52e00c8630a0bfa530ad97bbd431.bindTooltip(
+                `<div>
+                     ('㈜흥한산업 당진공장', '취급물질: ', '황산,염산,수산화나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d11c605120ee2ee610ecc656d0854648 = L.marker(
+                [36.975368, 126.685077],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_422cb1dfa0182c4f3d691516690294fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d11c605120ee2ee610ecc656d0854648.setIcon(icon_422cb1dfa0182c4f3d691516690294fa);
+        
+    
+            marker_d11c605120ee2ee610ecc656d0854648.bindTooltip(
+                `<div>
+                     ('㈜이엔워터솔루션', '취급물질: ', '수산화나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37d028cf9d59415f65b8b5cb58d35e76 = L.marker(
+                [36.9721058, 126.7001508],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_68df7eb91aceb1ef535cfd77d7ec3784 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_37d028cf9d59415f65b8b5cb58d35e76.setIcon(icon_68df7eb91aceb1ef535cfd77d7ec3784);
+        
+    
+            marker_37d028cf9d59415f65b8b5cb58d35e76.bindTooltip(
+                `<div>
+                     ('씨앤씨케미칼㈜', '취급물질: ', '수산화나트륨, 수산화칼륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_601bdc9def2f32a46b4009dbfb8e3ec6 = L.marker(
+                [36.9721058, 126.7001508],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_320106fd6e772b4a7792c83b9d485775 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_601bdc9def2f32a46b4009dbfb8e3ec6.setIcon(icon_320106fd6e772b4a7792c83b9d485775);
+        
+    
+            marker_601bdc9def2f32a46b4009dbfb8e3ec6.bindTooltip(
+                `<div>
+                     ('씨피켐㈜ 2공장', '취급물질: ', '[제조]시안화구리\n[사용]황산,수산화나트륨,시안화나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fada0019b13d6534e4fe4e73b325b90f = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_97eb003605d480e71772ae0e5c22da68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fada0019b13d6534e4fe4e73b325b90f.setIcon(icon_97eb003605d480e71772ae0e5c22da68);
+        
+    
+            marker_fada0019b13d6534e4fe4e73b325b90f.bindTooltip(
+                `<div>
+                     ('씨엔피하이텍㈜', '취급물질: ', '[제조]황산+중불화암모늄,중불화암모늄\n[사용]황산,과산화수소,질산암모늄,중불화암모늄')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae5738776d9dbd833bd4a0059dc4ea13 = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_f6f076cb3d00824bf0011add56108e6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ae5738776d9dbd833bd4a0059dc4ea13.setIcon(icon_f6f076cb3d00824bf0011add56108e6a);
+        
+    
+            marker_ae5738776d9dbd833bd4a0059dc4ea13.bindTooltip(
+                `<div>
+                     ('넥스테크㈜ 당진공장', '취급물질: ', '[제조] 황산,염산,질산,수산화나트륨\n[사용]폐황산,염산,폐질산,수산화나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71a75bf293449ba4ade0692d6b7f07c2 = L.marker(
+                [36.9721058, 126.7001508],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_77a21e685ef81b90943183ee5eb859ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_71a75bf293449ba4ade0692d6b7f07c2.setIcon(icon_77a21e685ef81b90943183ee5eb859ed);
+        
+    
+            marker_71a75bf293449ba4ade0692d6b7f07c2.bindTooltip(
+                `<div>
+                     ('㈜삼주 당진공장', '취급물질: ', '염산,황산,수산화나트륨,메탄올,과산화수소,질산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98cacf79205f482bba4ed7c3831d796a = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_ecd08ada78b09c56c5fda820caf3dc73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_98cacf79205f482bba4ed7c3831d796a.setIcon(icon_ecd08ada78b09c56c5fda820caf3dc73);
+        
+    
+            marker_98cacf79205f482bba4ed7c3831d796a.bindTooltip(
+                `<div>
+                     ('인천화학㈜ 당진공장', '취급물질: ', '사염화티타늄,염소')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34ddb9d17653e3f6e730c76319f00a00 = L.marker(
+                [36.9526895, 126.7817596],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_c1b06f3c841e4524a4275a01e547cbcb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_34ddb9d17653e3f6e730c76319f00a00.setIcon(icon_c1b06f3c841e4524a4275a01e547cbcb);
+        
+    
+            marker_34ddb9d17653e3f6e730c76319f00a00.bindTooltip(
+                `<div>
+                     ('희성촉매㈜ 당진공장', '취급물질: ', '산화니켈')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35432c72163753412efec40eb0e6af13 = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_6eb339488f26282c48f32492ceb4b17e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_35432c72163753412efec40eb0e6af13.setIcon(icon_6eb339488f26282c48f32492ceb4b17e);
+        
+    
+            marker_35432c72163753412efec40eb0e6af13.bindTooltip(
+                `<div>
+                     ('미주엔비켐㈜ 당진석문', '취급물질: ', '수산화나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e00ad221b966d2cd63457d1e2e1dc8e = L.marker(
+                [36.85863, 126.7079402],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_829c5e30ffa65b6a90f6ac226aa31ff6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e00ad221b966d2cd63457d1e2e1dc8e.setIcon(icon_829c5e30ffa65b6a90f6ac226aa31ff6);
+        
+    
+            marker_8e00ad221b966d2cd63457d1e2e1dc8e.bindTooltip(
+                `<div>
+                     ('코스람산업', '취급물질: ', '톨루엔,메탄올,아세트산에틸,메틸에틸케톤')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a13a8e5062b5676b6c97c1f688db3c08 = L.marker(
+                [36.8958976, 126.7285123],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_da58cc94bef8d6f3c7bb543a675c4f93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a13a8e5062b5676b6c97c1f688db3c08.setIcon(icon_da58cc94bef8d6f3c7bb543a675c4f93);
+        
+    
+            marker_a13a8e5062b5676b6c97c1f688db3c08.bindTooltip(
+                `<div>
+                     ('㈜케이씨씨 당진영업소', '취급물질: ', "염료황색34,크롬산납,몰리브덴적,4,4'-메틸렌비스(2-클로로아닐린),과산화벤조일,트리글리시딜이소시아누레이트,안료그린13,메틸에틸케톤,아세트산에틸,1-메틸-2-피롤리디논,크롬산스트론티움,안료황색36,비스(2-에틸헥실) 프탈레이트,2-벤질-2-디메틸아미노-1-(4-모폴리노-페닐)-1-부타논,비스페놀-A,디부틸프탈레이트,붕산,부틸벤질프탈레이트,2-에틸헥산코발트(2가)염,Chloroalkanes(C=14-17),2-푸란메탄올,4,5-디클로로-2-N-옥틸-4-이소티아졸린-3-온,메틸에틸케톤과산화물,삼산화안티몬,카드뮴술포셀렌화합물,톨루엔,다이클로로메탄,메틸트리클로로실란")
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_910ea4ea5aad8e46ce9fa6c031acc6c0 = L.marker(
+                [36.9643374, 126.7728453],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_2307a1ce0944be177a61351bf0402cea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_910ea4ea5aad8e46ce9fa6c031acc6c0.setIcon(icon_2307a1ce0944be177a61351bf0402cea);
+        
+    
+            marker_910ea4ea5aad8e46ce9fa6c031acc6c0.bindTooltip(
+                `<div>
+                     ('미주엔비켐㈜', '취급물질: ', '염산,수산화칼륨,과산화수소,암모니아수,질산,수산화나트륨,아질산나트륨,황산,메탄올,하이드라진')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_563cb85c28c041e02138f440d0dc729f = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_09ccb126a0c636f6b5347696fa8f5525 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_563cb85c28c041e02138f440d0dc729f.setIcon(icon_09ccb126a0c636f6b5347696fa8f5525);
+        
+    
+            marker_563cb85c28c041e02138f440d0dc729f.bindTooltip(
+                `<div>
+                     ('㈜흥한산업 당진공장', '취급물질: ', '질산,암모니아,과산화수소,하이드라진수화물,아질산나트륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_249b09992c7582546657936bcc71a1d1 = L.marker(
+                [36.9721058, 126.7001508],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_3977f7145faddeb5a2d31a659dc83480 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_249b09992c7582546657936bcc71a1d1.setIcon(icon_3977f7145faddeb5a2d31a659dc83480);
+        
+    
+            marker_249b09992c7582546657936bcc71a1d1.bindTooltip(
+                `<div>
+                     ('도레이인터내셔날코리아㈜', '취급물질: ', '1-메틸-2-피롤리디논')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4f3ec611176a17ec874a467a8b80c5b = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_acd4651e4f96528e14675f6487e15e31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c4f3ec611176a17ec874a467a8b80c5b.setIcon(icon_acd4651e4f96528e14675f6487e15e31);
+        
+    
+            marker_c4f3ec611176a17ec874a467a8b80c5b.bindTooltip(
+                `<div>
+                     ('인천화학㈜ 당진공장', '취급물질: ', '시안화칼륨,시안화동+청화아연+시안화나트륨 혼합물,플루오로붕산,메탄술폰산,시안화나트륨구리화합물,청화아연,시안화동,황산니켈,사염화티타늄')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73e71a00be7da2d33628144c3ee79056 = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_ca45507f252f2ff6a1d55162a5ebfd74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_73e71a00be7da2d33628144c3ee79056.setIcon(icon_ca45507f252f2ff6a1d55162a5ebfd74);
+        
+    
+            marker_73e71a00be7da2d33628144c3ee79056.bindTooltip(
+                `<div>
+                     ('넥스테크㈜ 당진공장', '취급물질: ', '황산,염산,수산화나트륨,질산,과산화수소,메탄올')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1b04fd60d8076d26c8bf156309eda34 = L.marker(
+                [36.9721058, 126.7001508],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_fa12e1653dbf2dbc123cfab0764853a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f1b04fd60d8076d26c8bf156309eda34.setIcon(icon_fa12e1653dbf2dbc123cfab0764853a6);
+        
+    
+            marker_f1b04fd60d8076d26c8bf156309eda34.bindTooltip(
+                `<div>
+                     ('㈜삼주 당진공장', '취급물질: ', '[보관판매]염산,황산,수산화나트륨,메탄올,과산화수소,질산,수산화칼륨,포르말린,포름산,하이드라진,염화아연,암모니아수,아염소산나트륨\n[알선판매]질산나트륨,염소산나트륨,불산,염화아연,시안화나트륨,질산암모늄,이산화염소,이플루오르화암모늄,무수크롬산,과망간산칼륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d58d51ccd6abfd1300e65bc93286dfd = L.marker(
+                [36.96831280000001, 126.7650867],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_c4fc14ef55bbcd2e12b56142c52bd9d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1d58d51ccd6abfd1300e65bc93286dfd.setIcon(icon_c4fc14ef55bbcd2e12b56142c52bd9d2);
+        
+    
+            marker_1d58d51ccd6abfd1300e65bc93286dfd.bindTooltip(
+                `<div>
+                     ('제이더블유중외제약㈜', '취급물질: ', '수산화나트륨,황산,페놀,염산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d47e71f7bd7445a3b1fb2c3bc737c1a2 = L.marker(
+                [36.886799, 126.7391634],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_4e816b6b47fbf0e603f12c584acdbfcd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d47e71f7bd7445a3b1fb2c3bc737c1a2.setIcon(icon_4e816b6b47fbf0e603f12c584acdbfcd);
+        
+    
+            marker_d47e71f7bd7445a3b1fb2c3bc737c1a2.bindTooltip(
+                `<div>
+                     ('명인상사', '취급물질: ', '크로뮴(6+)화합물(3종)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a64b98c9558beca866811524dcc8a688 = L.marker(
+                [36.9234677, 126.6605168],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_6b583f43e39d4e4eef6097a5e0a858a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a64b98c9558beca866811524dcc8a688.setIcon(icon_6b583f43e39d4e4eef6097a5e0a858a1);
+        
+    
+            marker_a64b98c9558beca866811524dcc8a688.bindTooltip(
+                `<div>
+                     ('현대상사(당진)', '취급물질: ', '크로뮴(6+)화합물(2종)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7689ada2fb1d852510811ec9bedfed18 = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_6cb7deca56985600abba0f974021ebbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7689ada2fb1d852510811ec9bedfed18.setIcon(icon_6cb7deca56985600abba0f974021ebbb);
+        
+    
+            marker_7689ada2fb1d852510811ec9bedfed18.bindTooltip(
+                `<div>
+                     ('㈜광진화학', '취급물질: ', '황산,수산화나트륨,질산,염산,톨루엔,메탄올,과산화수소,암모니아수,무기아연염류,염소산염류')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a4d993278825c832af9ff0857acd5c7 = L.marker(
+                [36.9801392, 126.6710723],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_3b968440eb185567d8aa4ad51ee38705 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1a4d993278825c832af9ff0857acd5c7.setIcon(icon_3b968440eb185567d8aa4ad51ee38705);
+        
+    
+            marker_1a4d993278825c832af9ff0857acd5c7.bindTooltip(
+                `<div>
+                     ('화수목케미칼', '취급물질: ', '수산화나트륨,메탄올,황산')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c7b450f044a8313c95aeb174679a289b = L.marker(
+                [36.806749, 126.777158],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_e5f318e9a2ec453268881f6a7a4a96b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c7b450f044a8313c95aeb174679a289b.setIcon(icon_e5f318e9a2ec453268881f6a7a4a96b4);
+        
+    
+            marker_c7b450f044a8313c95aeb174679a289b.bindTooltip(
+                `<div>
+                     ('삼화페인트', '취급물질: ', '크로뮴(6+)화합물(3종)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a518f190b84f72a2894bebde01d29a15 = L.marker(
+                [36.891319, 126.7339968],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_cdc58158e1db62e0daaef6edcb081e28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a518f190b84f72a2894bebde01d29a15.setIcon(icon_cdc58158e1db62e0daaef6edcb081e28);
+        
+    
+            marker_a518f190b84f72a2894bebde01d29a15.bindTooltip(
+                `<div>
+                     ('엘케이켐', '취급물질: ', '수산화나트륨,메틸알콜')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b877c6bf951858d8c0f05945455988a = L.marker(
+                [36.8888718, 126.6273758],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_d0ef6ef282fc1cf18be034a22925f280 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3b877c6bf951858d8c0f05945455988a.setIcon(icon_d0ef6ef282fc1cf18be034a22925f280);
+        
+    
+            marker_3b877c6bf951858d8c0f05945455988a.bindTooltip(
+                `<div>
+                     ('페인트종합백화점', '취급물질: ', '메탄올,N,N-디메틸포름아미드,메틸에틸케톤,아크릴아미드,디부틸프탈레이트,과산화벤조일,2-푸란메탄올,4,4’-디이소시안산 디페닐메탄,4,4’-메틸렌다이아닐린,아크릴로니드릴,m-크레졸,톨루엔,페놀,2-메톡시에탄올,2-에톡시에탄올,비스(2-에틸헥실)프탈레이트,지람,아세트산에틸,1-메틸-2-피롤리디논,크롬산납,크롬산스트론티움,중크롬산암모늄,칼륨아연크롬산수산화물,몰리브덴적,톨루엔 디이소시아네이트,안료황색36,포름알데히드 1,3-벤젠디메탄,4,5-디클로로-2-N-옥틸-4-이소티아졸린-3-온,안료그린13,크실레놀,삼산화안티몬,산화납,크레졸,크실렌,무수크롬산,암모늄수산화물,메틸에틸케톤과산화물,염료황색34,1,3,5-트리글리시딜 아이소시아누르산염,디클로로메탄,비스페놀-A,아세트산(2-에톡시에틸)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a722d6c02409a103534e5ae2c63550c0 = L.marker(
+                [36.83493989999999, 126.7058142],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_92f8d7768f20bd201023da98fe17ced2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a722d6c02409a103534e5ae2c63550c0.setIcon(icon_92f8d7768f20bd201023da98fe17ced2);
+        
+    
+            marker_a722d6c02409a103534e5ae2c63550c0.bindTooltip(
+                `<div>
+                     ('㈜경인', '취급물질: ', '수산화나트륨,염산,암모니아수')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0be037c87c509f06a2b7fb407e127334 = L.marker(
+                [36.8110179, 126.7667919],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_20382eed89acbfa55dd488314346e550 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0be037c87c509f06a2b7fb407e127334.setIcon(icon_20382eed89acbfa55dd488314346e550);
+        
+    
+            marker_0be037c87c509f06a2b7fb407e127334.bindTooltip(
+                `<div>
+                     ('씨엠코리아', '취급물질: ', '산화니켈')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81c5126ec2d8db05624733ee2c1fe19d = L.marker(
+                [36.9296643, 126.7194762],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_8fb2ec738534f7e396f657153d4e52d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_81c5126ec2d8db05624733ee2c1fe19d.setIcon(icon_8fb2ec738534f7e396f657153d4e52d0);
+        
+    
+            marker_81c5126ec2d8db05624733ee2c1fe19d.bindTooltip(
+                `<div>
+                     ('당진산업가스㈜', '취급물질: ', '수산화나트륨,염산,황산,메틸알콜')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ec77b04d4afdb3472df111bb3e89593 = L.marker(
+                [36.9596063, 126.8482892],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_7d2eb624a4da7a3225402d06b2994e0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2ec77b04d4afdb3472df111bb3e89593.setIcon(icon_7d2eb624a4da7a3225402d06b2994e0f);
+        
+    
+            marker_2ec77b04d4afdb3472df111bb3e89593.bindTooltip(
+                `<div>
+                     ('OCI㈜중부사업장', '취급물질: ', '수산화칼륨,과산화수소,질산,메틸알콜,중크롬산칼륨,브롬화수소,벤젠,톨루엔디이소시아네이트,자일렌,비스(2-에틸헥실)프탈레이트,수산화나트륨,염산,염소,사염화규소')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_195ad6d40cd7bba5417d448ef11cc817 = L.marker(
+                [36.83493989999999, 126.7058142],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_b84f9e0cedaa64cc534d7eb5e8de3cc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_195ad6d40cd7bba5417d448ef11cc817.setIcon(icon_b84f9e0cedaa64cc534d7eb5e8de3cc6);
+        
+    
+            marker_195ad6d40cd7bba5417d448ef11cc817.bindTooltip(
+                `<div>
+                     ('진씨엔에프', '취급물질: ', '수산화칼륨,수산화나트륨,메틸알콜,1-메틸-2-피롤리디논,과산화수소,개미산,질산,황산,포름알데히드,2-메틸-4-이소티아졸린-3-온,5-클로로-2-메틸-4-이소티아졸린-3-온,염화아연,질산나트륨,아질산나트륨,아염소산나트륨,암모니아수,질산암모늄,메틸에틸케톤')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cffdae1e1e85e318f8419b83dddda012 = L.marker(
+                [36.88573760000001, 126.6339349],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_b6b8d2c4906f96de8474f088451e0024 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cffdae1e1e85e318f8419b83dddda012.setIcon(icon_b6b8d2c4906f96de8474f088451e0024);
+        
+    
+            marker_cffdae1e1e85e318f8419b83dddda012.bindTooltip(
+                `<div>
+                     ('㈜파인테크놀로지', '취급물질: ', '수산화나트륨,황산,염산,암모니아수,과산화수소,메탄올')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_41a432779069087fdcad7768e86d6efc = L.marker(
+                [36.9643756, 126.7668774],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_df0ebc7e2efb07c8433ec04429ea5458 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_41a432779069087fdcad7768e86d6efc.setIcon(icon_df0ebc7e2efb07c8433ec04429ea5458);
+        
+    
+            marker_41a432779069087fdcad7768e86d6efc.bindTooltip(
+                `<div>
+                     ('대영건업', '취급물질: ', '메탄올,N,N-디메틸포름아미드,메틸에틸케톤,아크릴아미드,디부틸프탈레이트,과산화벤조일,2-푸란메탄올,4,4’-메틸렌비스[2-클로로아닐린],4,4’-디이소시안산 디페닐메탄,4,4’-메틸렌다이아닐린,아크릴로니드릴,m-크레졸,톨루엔,페놀,2-메톡시에탄올,2-에톡시에탄올,비스(2-에틸헥실)프탈레이트,지람,아세트산에틸,1-메틸-2-피롤리디논,크롬산납,크롬산스트론티움,중크롬산암모늄,칼륨아연크롬산수산화물,몰리브덴적,톨루엔 디이소시아네이트,안료황색36,포름알데히드 1,3-벤젠디메탄,\n4,5-디클로로-2-N-옥틸-4-이소티아졸린-3-온,안료그린13,크실레놀,삼산화안티몬,산화납,크레졸,크실렌,무수크롬산,암모늄수산화물,메틸에틸케톤과산화물,염료황색34,1,3,5-트리글리시딜 아이소시아누르산염')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5315ea71f457896dc1aa391123f9375 = L.marker(
+                [36.8082793, 126.7701777],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_8c0d9fd78af2f66f23851c62842ee061 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b5315ea71f457896dc1aa391123f9375.setIcon(icon_8c0d9fd78af2f66f23851c62842ee061);
+        
+    
+            marker_b5315ea71f457896dc1aa391123f9375.bindTooltip(
+                `<div>
+                     ('노루표페인트 합덕대리점', '취급물질: ', '메탄올,N,N-디메틸포름아미드,메틸에틸케톤,아크릴아미드,디부틸프탈레이트,과산화벤조일,2-푸란메탄올,4,4’-메틸렌비스[2-클로로아닐린],4,4’-디이소시안산 디페닐메탄,4,4’-메틸렌다이아닐린,아크릴로니드릴,m-크레졸,톨루엔,페놀,2-메톡시에탄올,2-에톡시에탄올,비스(2-에틸헥실)프탈레이트,지람,아세트산에틸,1-메틸-2-피롤리디논,크롬산납,크롬산스트론티움,중크롬산암모늄,칼륨아연크롬산수산화물,몰리브덴적,톨루엔 디이소시아네이트,안료황색36,포름알데히드 1,3-벤젠디메탄,\n4,5-디클로로-2-N-옥틸-4-이소티아졸린-3-온,안료그린13,크실레놀,삼산화안티몬,산화납,크레졸,크실렌,무수크롬산,암모늄수산화물,메틸에틸케톤과산화물,염료황색34,1,3,5-트리글리시딜 아이소시아누르산염')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b18268a7cc0e6ab69b80368a4069861 = L.marker(
+                [36.8989335, 126.8019544],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_ab6d6c1c5e8576085eee50cba111be22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3b18268a7cc0e6ab69b80368a4069861.setIcon(icon_ab6d6c1c5e8576085eee50cba111be22);
+        
+    
+            marker_3b18268a7cc0e6ab69b80368a4069861.bindTooltip(
+                `<div>
+                     ('재승인더스트리', '취급물질: ', "4,4'-디이소시안산디페닐메탄")
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_059686d4d326858c16c1f9c563d82516 = L.marker(
+                [36.8818132, 126.6253283],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_cf6b89085019f3cc11653645a7fcdf5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_059686d4d326858c16c1f9c563d82516.setIcon(icon_cf6b89085019f3cc11653645a7fcdf5c);
+        
+    
+            marker_059686d4d326858c16c1f9c563d82516.bindTooltip(
+                `<div>
+                     ('당진화공약품상사', '취급물질: ', '수산화나트륨,염산,염화메틸렌,암모니아수,황산,질산,톨루엔,포르말린,과산화수소,과망간산칼륨,칼륨,메틸에틸케톤,트리클로로에틸렌,개미산,메탄올,아세트산에틸,자일렌,디클로로메탄,수산화칼륨')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d278ad19e3beb8db1992ba09d7550baa = L.marker(
+                [36.9803962, 126.7237268],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_44818459a31b98586ffc356cbad3efd0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d278ad19e3beb8db1992ba09d7550baa.setIcon(icon_44818459a31b98586ffc356cbad3efd0);
+        
+    
+            marker_d278ad19e3beb8db1992ba09d7550baa.bindTooltip(
+                `<div>
+                     ('KCC세계로 노루페인트', '취급물질: ', '4,4-메틸렌비스(2-클로로아닐린),몰리브덴적,붕산,안료황색36,에틸렌글리콜모노에틸에테르,에틸렌글리콜모노에틸에테르아세테이트,디클로로메탄,크롬산납')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_abc5106d80d968133b47c541779859c2 = L.marker(
+                [36.8917559, 126.6252499],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_3b91be6f014583a5c87e2e346b849612 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_abc5106d80d968133b47c541779859c2.setIcon(icon_3b91be6f014583a5c87e2e346b849612);
+        
+    
+            marker_abc5106d80d968133b47c541779859c2.bindTooltip(
+                `<div>
+                     ('조광페인트(당진)', '취급물질: ', '아세트산에틸,메틸에틸케톤,칼륨아연크롬산수산화물,염료황색34')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb2923444ee7c30c794ca33736c9ccf7 = L.marker(
+                [36.8956017, 126.6317138],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_3affd323ec99c0592e958ffa055bd409 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cb2923444ee7c30c794ca33736c9ccf7.setIcon(icon_3affd323ec99c0592e958ffa055bd409);
+        
+    
+            marker_cb2923444ee7c30c794ca33736c9ccf7.bindTooltip(
+                `<div>
+                     ('㈜페인트월드', '취급물질: ', '염로황색34,크롬산납,몰리브덴적')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5ace2d5837d6c0b17ec2dc7fa08884d = L.marker(
+                [36.9643756, 126.7668774],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_0298ffecb6a1501cc56ff42dc2a0e806 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f5ace2d5837d6c0b17ec2dc7fa08884d.setIcon(icon_0298ffecb6a1501cc56ff42dc2a0e806);
+        
+    
+            marker_f5ace2d5837d6c0b17ec2dc7fa08884d.bindTooltip(
+                `<div>
+                     ('현영건업', '취급물질: ', "염료황색34, 크롬산납,염료황색36,4,4'-메틸렌비스(2-클로로아닐린),몰리브덴적")
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47bd3e000303adc151c7612009190b8f = L.marker(
+                [36.9819022, 126.5908916],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_f00479175ca94f3e12f52a4ff2ce1940 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_47bd3e000303adc151c7612009190b8f.setIcon(icon_f00479175ca94f3e12f52a4ff2ce1940);
+        
+    
+            marker_47bd3e000303adc151c7612009190b8f.bindTooltip(
+                `<div>
+                     ('㈜비엠씨', '취급물질: ', '수산화나트륨,메틸알코올,황산,염산,암모니아수,과산화수소,수산화칼륨,질산,히드라진수화물,시클로헥실아민,하이드로퀴논,아질산나트륨,브롬화수소,테트라클로로에틸렌')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16fb104d5a5c125917fb1b537a893875 = L.marker(
+                [36.9850805, 126.5886038],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_40897d536d489b133cc33e53be2a74d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_16fb104d5a5c125917fb1b537a893875.setIcon(icon_40897d536d489b133cc33e53be2a74d3);
+        
+    
+            marker_16fb104d5a5c125917fb1b537a893875.bindTooltip(
+                `<div>
+                     석문119안전센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35a748a816ff3d662d1590ff78499af1 = L.marker(
+                [36.9601263, 126.7683035],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_1237b1ee813c874fccd813db1525e172 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_35a748a816ff3d662d1590ff78499af1.setIcon(icon_1237b1ee813c874fccd813db1525e172);
+        
+    
+            marker_35a748a816ff3d662d1590ff78499af1.bindTooltip(
+                `<div>
+                     송악119안전센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_255db9a268f2e30c6a11ddb337272d21 = L.marker(
+                [36.89037380000001, 126.6939875],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_fc4c80d29bee245350d49e472f3d5d77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_255db9a268f2e30c6a11ddb337272d21.setIcon(icon_fc4c80d29bee245350d49e472f3d5d77);
+        
+    
+            marker_255db9a268f2e30c6a11ddb337272d21.bindTooltip(
+                `<div>
+                     기지시119안전센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd611e06c8f1f59c44efa31fa6a777b0 = L.marker(
+                [36.8833575, 126.7774522],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_cda3208a4c964e94b487ea3b8fe1d5aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fd611e06c8f1f59c44efa31fa6a777b0.setIcon(icon_cda3208a4c964e94b487ea3b8fe1d5aa);
+        
+    
+            marker_fd611e06c8f1f59c44efa31fa6a777b0.bindTooltip(
+                `<div>
+                     신평119안전센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_071bb0ee42218c5ee047115ff099c834 = L.marker(
+                [36.8857583, 126.6178819],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_076d3b32badb7312d0026745a9f6f375 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_071bb0ee42218c5ee047115ff099c834.setIcon(icon_076d3b32badb7312d0026745a9f6f375);
+        
+    
+            marker_071bb0ee42218c5ee047115ff099c834.bindTooltip(
+                `<div>
+                     당진119안전센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_862010b55a94c1504ab46e16b1670b4c = L.marker(
+                [36.8128101, 126.7666063],
+                {}
+            ).addTo(map_2aef1261705519c5c3045a84a650ca14);
+        
+    
+            var icon_99b6566a3e06490236fc80d817c03781 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_862010b55a94c1504ab46e16b1670b4c.setIcon(icon_99b6566a3e06490236fc80d817c03781);
+        
+    
+            marker_862010b55a94c1504ab46e16b1670b4c.bindTooltip(
+                `<div>
+                     합덕119안전센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
